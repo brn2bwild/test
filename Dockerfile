@@ -13,8 +13,8 @@ ENV REAL_IP_HEADER 1
 ENV APP_ENV production
 ENV APP_DEBUG false
 ENV LOG_CHANNEL stderr
-ENV DB_CONNECTION pgsql
 ENV APP_KEY base64:TYXlLYGvBa4vzovRatw9KU98wRpCnVLE/8h1JGVJXjU=
+ENV DB_CONNECTION pgsql
 ENV DATABASE_URL postgres://laravel_postgresql_9l2m_user:laJd4NOMFHbFL58kRjlJGlXgtJ0vemky@dpg-cnuoi0v109ks7396rbt0-a/laravel_postgresql_9l2m
 
 # Allow composer to run as root
