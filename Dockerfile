@@ -16,6 +16,19 @@ ENV LOG_CHANNEL stderr
 ENV APP_KEY base64:TYXlLYGvBa4vzovRatw9KU98wRpCnVLE/8h1JGVJXjU=
 ENV DB_CONNECTION pgsql
 ENV DATABASE_URL postgres://laravel_postgresql_9l2m_user:laJd4NOMFHbFL58kRjlJGlXgtJ0vemky@dpg-cnuoi0v109ks7396rbt0-a/laravel_postgresql_9l2m
+ENV APP_KEY base64:0fhpQm949ugvB74nGb2+s6QelmhXRjcIyoE8X/ENV 0yabs 
+ENV APP_DEBUG true
+ENV APP_TIMEZONE UTC
+ENV APP_URL https://api-e16q.onrender.com
+
+ENV APP_LOCALE en
+ENV APP_FALLBACK_LOCALE en
+ENV APP_FAKER_LOCALE en_US
+
+ENV APP_MAINTENANCE_DRIVER file
+ENV APP_MAINTENANCE_STORE database
+
+ENV BCRYPT_ROUNDS 12
 
 # Allow composer to run as root
 ENV COMPOSER_ALLOW_SUPERUSER 1
